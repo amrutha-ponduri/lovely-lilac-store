@@ -108,6 +108,12 @@
 @layer base {
   * {
     @apply border-border;
+    cursor: url('/cursor-bloom.svg') 12 12, auto;
+  }
+
+  a, button, [role="button"], input[type="submit"], input[type="button"], 
+  select, .cursor-pointer, [onclick] {
+    cursor: url('/cursor-bloom-pointer.svg') 14 14, pointer;
   }
 
   body {

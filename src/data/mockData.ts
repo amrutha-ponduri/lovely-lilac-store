@@ -256,9 +256,9 @@ export const products: Product[] = [
     discount: 36,
     rating: 4.7,
     reviewCount: 167,
-    image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400&h=500&fit=crop",
+    image: "https://i.pinimg.com/1200x/9a/30/c8/9a30c8f54184363a71b9a4af7a4aeb6d.jpg?w=400&h=500&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=800&h=1000&fit=crop",
+      "https://i.pinimg.com/1200x/9a/30/c8/9a30c8f54184363a71b9a4af7a4aeb6d.jpg?w=800&h=1000&fit=crop",
     ],
     category: "women",
     subcategory: "ethnic",

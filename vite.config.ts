@@ -9,12 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-
-  // ⭐ Add this line for GitHub Pages deployment
-  base: "/lovely-lilac-store/",
-
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
